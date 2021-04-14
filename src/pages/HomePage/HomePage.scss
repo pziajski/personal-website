@@ -1,0 +1,27 @@
+@use "../../partials/color-palette.scss" as *;
+
+.home-page {
+    min-height: 100vh;
+    height: 100%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    padding-left: 20vw;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.section-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    color: $primary-font-color;
+}
