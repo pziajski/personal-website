@@ -10,7 +10,10 @@ export const HomePage = () => {
                 <h2 className="section-title">Software Developer with an interest in softare, hardware, space, and physics.</h2>
             </div>
             <div id="github" className="section-container">
-                <h1>Github</h1>
+                <a href="https://github.com/pziajski">Github</a>
+            </div>
+            <div id="linkedin" className="section-container">
+                <a href="https://www.linkedin.com/in/patrick-ziajski">LinkedIn</a>
             </div>
         </div>
     )
