@@ -1,0 +1,7 @@
+@use "./partials/resets.scss";
+@use "./partials/color-palette.scss" as *;
+
+.App {
+    position: relative;
+    background-color: $primary-background;
+}
