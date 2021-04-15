@@ -1,13 +1,12 @@
-import React from 'react';
 import './App.scss';
-import { NavSideBar } from './components/NavSideBar/NavSideBar';
-import { HomePage } from './pages/HomePage/HomePage';
+import { MainContent } from './components/MainContent/MainContent';
+import { PageIndicator } from './components/PageIndicator/PageIndicator';
 
 function App() {
     return (
         <div className="App">
-            <NavSideBar />
-            <HomePage />
+            <MainContent />
+            <PageIndicator />
         </div>
     );
 }
