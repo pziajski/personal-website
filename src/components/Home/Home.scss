@@ -1,0 +1,41 @@
+@use "../../partials/color-palette.scss" as *;
+@use "../../partials/mixins.scss" as *;
+
+.main-content {
+    min-height: 100vh;
+    height: 100%;
+
+    &__landing {
+        @include section-container;
+    }
+
+    &__landing-title {
+        align-self: flex-start;
+        font-size: 1.5rem;
+    }
+
+    &__info {
+        @include section-container;
+    }
+
+    &__info-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-grow: 1;
+        max-height: 40vw;
+    }
+}
+
+.icon {
+    width: 10vw;
+    max-width: 50px;
+    height: 10vw;
+    max-height: 50px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}

@@ -1,16 +1,16 @@
-import "./MainContent.scss";
+import "./Home.scss";
 import { StarFall } from '../../components/StarFall/StarFall';
 import { Github, Linkedin } from "react-bootstrap-icons";
 
-export const MainContent = () => {
+export const Home = () => {
     return (
         <div className="main-content">
-            <div className="section-container">
+            <div className="main-content__landing">
                 <StarFall />
-                <h2 className="section-title">Software Developer with an interest in software, hardware, space, and physics.</h2>
+                <h2 className="main-content__landing-title">Software Developer with an interest in software, hardware, space, and physics.</h2>
             </div>
-            <div className="section-container">
-                <ul className="link-list">
+            <div className="main-content__info">
+                <ul className="main-content__info-list">
                     <li>
                         <a href="https://github.com/pziajski">
                             <Github className="icon" />
