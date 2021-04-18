@@ -1,0 +1,16 @@
+@use "./color-palette.scss" as *;
+
+@mixin section-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    color: $primary-font-color;
+    padding: 2vw 10vw;
+}
