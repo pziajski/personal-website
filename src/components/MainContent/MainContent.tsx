@@ -7,7 +7,7 @@ export const MainContent = () => {
         <div className="main-content">
             <div className="section-container">
                 <StarFall />
-                <h2 className="section-title">Software Developer with an interest in softare, hardware, space, and physics.</h2>
+                <h2 className="section-title">Software Developer with an interest in software, hardware, space, and physics.</h2>
             </div>
             <div className="section-container">
                 <ul className="link-list">
