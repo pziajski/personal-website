@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0218f296.chunk.css",
-    "main.js": "/static/js/main.06f75b50.chunk.js",
-    "main.js.map": "/static/js/main.06f75b50.chunk.js.map",
+    "main.css": "/static/css/main.6fa9c119.chunk.css",
+    "main.js": "/static/js/main.6ddb147c.chunk.js",
+    "main.js.map": "/static/js/main.6ddb147c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0733fe2d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0733fe2d.js.map",
     "static/js/2.555e8297.chunk.js": "/static/js/2.555e8297.chunk.js",
     "static/js/2.555e8297.chunk.js.map": "/static/js/2.555e8297.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0218f296.chunk.css.map": "/static/css/main.0218f296.chunk.css.map",
-    "static/js/2.555e8297.chunk.js.LICENSE.txt": "/static/js/2.555e8297.chunk.js.LICENSE.txt"
+    "static/css/main.6fa9c119.chunk.css.map": "/static/css/main.6fa9c119.chunk.css.map",
+    "static/js/2.555e8297.chunk.js.LICENSE.txt": "/static/js/2.555e8297.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/Roboto-Regular.a2580627.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.0733fe2d.js",
     "static/js/2.555e8297.chunk.js",
-    "static/css/main.0218f296.chunk.css",
-    "static/js/main.06f75b50.chunk.js"
+    "static/css/main.6fa9c119.chunk.css",
+    "static/js/main.6ddb147c.chunk.js"
   ]
 }
