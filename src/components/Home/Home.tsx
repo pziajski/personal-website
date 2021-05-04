@@ -7,8 +7,9 @@ export const Home = () => {
         <div className="main-content">
             <div className="main-content__landing">
                 <StarFall />
-                <h2 className="main-content__title">Software Developer with an interest in software, hardware, space, and physics.</h2>
+                <h2 className="main-content__title">Software Developer with an interest in all things software, hardware and space/physics related.</h2>
                 <h3 className="main-content__sub-title">Full-Stack focus</h3>
+                <h3 className="main-content__sub-title">Growing Linux / Open-Source developer</h3>
             </div>
             <div className="main-content__info">
                 <div className="main-content__info-container">
