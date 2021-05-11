@@ -8,6 +8,8 @@ export const StarFall = () => {
             <div className="star"></div>
             <div className="star"></div>
             <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
         </div>
     )
 }

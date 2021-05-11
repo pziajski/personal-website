@@ -1,0 +1,25 @@
+@use "./color-palette.scss" as *;
+
+@mixin title-medium {
+    font-size: 1.5rem;
+}
+
+@mixin title-small {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+@mixin section-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    color: $primary-font-color;
+    padding: 2rem 10vw;
+}

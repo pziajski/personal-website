@@ -1,7 +1,9 @@
 @use "./partials/resets.scss";
 @use "./partials/color-palette.scss" as *;
+@use "./partials/typography.scss";
 
 .App {
     position: relative;
     background-color: $primary-background;
+    font-family: Roboto;
 }
