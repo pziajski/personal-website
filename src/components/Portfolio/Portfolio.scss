@@ -1,0 +1,25 @@
+@use "../../partials/color-palette.scss" as *;
+
+.portfolio {
+	&__project {
+		width: 70%;
+		
+		& > * {
+			margin-bottom: 1rem;
+		}
+	}
+
+	&__project-header {
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+
+	&__project-description {
+		font-style: italic;
+	}
+
+	&__project-link {
+		text-decoration: none;
+		color: $primary-highlight-color;
+	}
+}
