@@ -5,7 +5,7 @@
     min-height: 100vh;
     height: 100%;
 
-    &__landing {
+    & > * {
         @include section-container;
     }
 
@@ -17,10 +17,6 @@
     &__sub-title {
         align-self: flex-start;
         @include title-small;
-    }
-
-    &__info {
-        @include section-container;
     }
 
     &__info-container {
@@ -50,6 +46,7 @@
     max-width: 40px;
     height: 10vw;
     max-height: 40px;
+    color: $primary-font-color;
 
     &:hover {
         color: $primary-highlight-color;
