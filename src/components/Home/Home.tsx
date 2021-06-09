@@ -1,6 +1,7 @@
 import "./Home.scss";
 import { StarFall } from '../../components/StarFall/StarFall';
 import { Github, Linkedin } from "react-bootstrap-icons";
+import { Portfolio } from "../Portfolio/Portfolio";
 
 export const Home = () => {
     return (
@@ -11,6 +12,7 @@ export const Home = () => {
                 <h3 className="main-content__sub-title">Full-Stack focus</h3>
                 <h3 className="main-content__sub-title">Growing Linux / Open-Source developer</h3>
             </div>
+            <Portfolio />
             <div className="main-content__info">
                 <div className="main-content__info-container">
                     <h2 className="main-content__info-title">{"[ Project Showcase coming soon ... ]"}</h2>
